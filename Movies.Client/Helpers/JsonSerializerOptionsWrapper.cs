@@ -10,5 +10,6 @@ public class JsonSerializerOptionsWrapper
     {
         Options = new JsonSerializerOptions(
             JsonSerializerDefaults.Web);
+        Options.DefaultBufferSize = 10;
     }
 }
